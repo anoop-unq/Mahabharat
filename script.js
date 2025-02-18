@@ -35,7 +35,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(selectedBox);
@@ -52,7 +52,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(on);
@@ -69,7 +69,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(off);
@@ -86,7 +86,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(casual);
@@ -103,7 +103,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(casualless);
@@ -120,7 +120,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      },);
 
       // Observe only the selected box
       observer.observe(fade);
@@ -136,7 +136,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      },);
 
       // Observe only the selected box
       observer.observe(fadeless);
@@ -153,7 +153,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fademore);
@@ -170,7 +170,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadecool);
@@ -187,7 +187,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(faderich);
@@ -204,7 +204,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadepoor);
@@ -220,7 +220,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadeultra);
@@ -231,12 +231,12 @@ AOS.init({
       var observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-    entry.target.classList.add("puff-in-left");
+    entry.target.classList.add("slide-in-blurred-left");
           } else {
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadecheck);
@@ -253,7 +253,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fades);
@@ -270,7 +270,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadess);
@@ -286,7 +286,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadesss);
@@ -297,12 +297,12 @@ AOS.init({
       var observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-    entry.target.classList.add("slide-in-elliptic-bottom-bck");
+    entry.target.classList.add("flip-in-diag-2-br");
           } else {
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      }, );
 
       // Observe only the selected box
       observer.observe(fadessss);
@@ -319,7 +319,7 @@ AOS.init({
             entry.target.classList.remove("animate");
           }
         });
-      }, { threshold: 0.5 });
+      },);
 
       // Observe only the selected box
       observer.observe(fadesssss);
